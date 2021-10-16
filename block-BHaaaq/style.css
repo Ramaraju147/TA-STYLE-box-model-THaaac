@@ -1,0 +1,96 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+   margin: 30px;
+}
+
+span{
+  display: inline-block;
+  background-color: rgb(178,45,36);
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.box1{
+  border: 5px solid black;
+  margin: 20px 0px;
+}
+
+.box2{
+  border: 5px double black;
+  margin-right: 30px;
+}
+
+.box3{
+  border: 5px dotted black;
+}
+
+.box4{
+  border: 5px dashed black;
+  margin-right: 30px;
+}
+
+.row3{
+  margin: 20px 0px;
+}
+
+.box6{
+ background-color: rgb(233,62,51);
+ border-left: 15px solid green;
+ border-top: 15px solid blue;
+ border-right: 15px solid silver;
+ border-bottom: 15px solid yellow;
+ outline: 25px solid violet;
+ height: 300px;
+ width: 200px;
+ margin: 50px 20px;
+ padding: 10px;
+}

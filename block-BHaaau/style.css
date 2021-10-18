@@ -1,234 +1,161 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
 body {
-  line-height: 1;
+	line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
+ol, ul {
+	list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
+blockquote, q {
+	quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-body {
-  font-family: "Courier Prime", monospace;
+body{
   text-align: center;
+  width:70%;
+  margin: 0 auto;
 }
 
-h1 {
-  font-size: 42px;
-  font-weight: 700;
-  padding: 30px;
+h1{
+  font-size: 40px;
+  margin: 10px;
 }
 
-hr {
-  border-top: 1px dotted;
-  width: 30%;
+hr{
+  border-top: 1px dotted rgb(0,0,0,0.5);
+  width: 70%;
+  margin: 40px auto;
 }
 
-.title-1 {
-  font-size: 32px;
-  padding: 30px;
-  font-weight: 400;
+h2{
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.box-1 {
-  width: 200px;
-  height: 200px;
-  background-color: lightseagreen;
-  padding: 15px;
-  box-shadow: inset 0 0 0 15px lightskyblue;
-  border: 4px solid black;
-  outline: 15px solid rosybrown;
+h3{
+  font-size: 20px;
+}
+
+.box-1{
+  width: 150px;
+  height:150px;
+  background-color: rgb(217,250,211);
+  margin: 0 auto;
+  border: 15px solid rgb(174,216,229);
+  outline: 5px solid black;
+}
+
+.outline-border{
+  border: 15px solid rgb(237,127,128);
+  display: inline-block;
+}
+
+.tags{
+  display:flex;
+  justify-content: space-around;
   margin: 20px auto;
+  width: 40%;
 }
 
-.content-1 {
-  padding: 30px;
+span{
+  display:inline-block;
 }
 
-.circle1 {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-color: lightseagreen;
+p{
+  display:inline-block;
+}
+
+.flex{
+  display:flex;
+  align-items: center;
+}
+
+.content{
+  width:20px;
+  height: 20px;
   border-radius: 50%;
+  background-color: rgb(217,250,211);
+  margin: 0px 10px;
 }
 
-.circle2 {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-color: lightskyblue;
+.padding{
+  width:20px;
+  height: 20px;
   border-radius: 50%;
+  background-color:rgb(174,216,229);
+  margin: 0px 10px;
 }
 
-.circle3 {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-color: black;
+.border{
+  width:20px;
+  height: 20px;
   border-radius: 50%;
+  background-color:black;
+  margin: 0px 10px;
 }
 
-.circle4 {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  background-color: rosybrown;
+.margin{
+  width:20px;
+  height: 20px;
   border-radius: 50%;
+  background-color:rgb(237,127,128);
+  margin: 0px 10px;
 }
 
-.title-2 {
-  font-size: 24px;
-}
-
-.container {
+.container{
   width: 600px;
   border: 1px solid black;
   margin: 20px auto;
 }
 
-.childbox {
-  display: inline-block;
-  width: 170px;
+.box{
   height: 100px;
-  margin: 10px;
-  background-color: gray;
-}
-
-.childbox1 {
-  display: inline-block;
   width: 180px;
-  height: 100px;
-  margin: 10px;
-  background-color: gray;
+  margin: 8px;
+  background-color: rgb(204,204,204);
+}
+
+.box-border{
   border: 1px solid black;
 }
 
-.childbox2 {
-  display: inline-block;
-  width: 170px;
-  height: 100px;
-  margin: 10px;
-  background-color: gray;
-  border: 1px solid black;
+.box-sizing{
+  box-sizing: border-box;
 }
